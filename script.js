@@ -1,15 +1,24 @@
+// const form = document.querySelector("#signup-form")
+// const creditCard = document.querySelector("#cc")
+// const agreement = document.querySelector("#terms")
+// const cards = document.querySelector("#creditCards")
+
+// form.addEventListener("submit", function (event) {
+//   event.preventDefault() //prevents teh sending on of your data to another page or site.
+//   alert("Your form has been submitted!")
+//   console.log(event)
+//   console.log(creditCard.value)
+//   console.log(agreement.checked)
+//   console.log(cards.value)
+// })
+
+///////////*  THE BASICS *////////////
 const form = document.querySelector("#signup-form")
-const creditCard = document.querySelector("#cc")
-const agreement = document.querySelector("#terms")
-const cards = document.querySelector("#creditCards")
 
 form.addEventListener("submit", function (event) {
-  event.preventDefault() //prevents teh sending on of your data to another page or site.
-  alert("Your form has been submitted!")
+  alert("Form Submitted")
   console.log(event)
-  console.log(creditCard.value)
-  console.log(agreement.checked)
-  console.log(cards.value)
+  event.preventDefault()
 })
 
 /*
@@ -22,4 +31,3 @@ b.) append form data to page
 */
 
 //////////////////////////////////////* INPUT & CHANGE EVENTS */
-
